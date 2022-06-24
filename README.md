@@ -6,7 +6,7 @@
 3. Start development.
 
 ### Development
-Use `npm run watch` to watch files during development (incremental files build).
+Use `npm run dev` to watch files during development (incremental files build).
 
 ### Production
 Build your production ready code with `npm run build`.
