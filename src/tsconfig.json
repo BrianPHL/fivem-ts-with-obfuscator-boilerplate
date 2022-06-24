@@ -8,6 +8,11 @@
     "module": "commonjs",
     "target": "es6",
     "allowJs": true,
+    "types": [ 
+      "@citizenfx/client", 
+      "@citizenfx/server", 
+      "@types/node" 
+    ],
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true
