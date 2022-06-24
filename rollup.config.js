@@ -8,7 +8,17 @@ export default {
     dir: 'dist',
   },
   plugins: [
-    typescript(),
+    typescript({
+      "types": [ 
+        "@citizenfx/client", 
+        "@citizenfx/server", 
+        "@types/node" 
+      ],
+      "lib": [
+        "DOM",
+        "ES2017"
+      ]
+    }),
     folderInput(),
     obfuscator()
   ],
