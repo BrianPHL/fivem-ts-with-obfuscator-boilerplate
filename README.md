@@ -23,10 +23,10 @@ If you want your compiler to watch for changes and compile it on the spot while 
 
 ### License
 
-<h5>MIT License</h5>
-
-Copyright (c) 2022 Brian
-
+>MIT License
+>
+>Copyright (c) 2022 Brian
+>
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
 >in the Software without restriction, including without limitation the rights
