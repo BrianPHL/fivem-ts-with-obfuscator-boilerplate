@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "module": "ESNext",
+      "types": ["@citizenfx/client", "@types/node"],
+      "lib": ["ES2020"],
+      "moduleResolution": "node"
+    },
+    "include": ["./**/*"],
+    "exclude": ["**/node_modules", "**/__tests__/*"]
+}

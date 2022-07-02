@@ -1,28 +1,25 @@
 {
-  "name": "brianph-projects-template",
+  "name": "fivem-ts-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A boilerplate for TypeScript in FiveM",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development"
   },
-  "keywords": [],
-  "author": "bri_#0017",
-  "license": "ISC",
+  "author": "Project Error",
+  "license": "MIT",
   "devDependencies": {
-    "rollup": "^2.75.7",
-    "rollup-watch": "^4.3.1",
-    "tslib": "^2.4.0",
-    "typescript": "^4.7.4"
-  },
-  "dependencies": {
-    "@citizenfx/client": "^2.0.5668-1",
-    "@citizenfx/server": "^2.0.5668-1",
-    "@rollup/plugin-typescript": "^8.3.3",
-    "@types/node": "^18.0.0",
-    "fivem-js": "^1.5.2",
-    "rollup-obfuscator": "^3.0.1",
-    "rollup-plugin-folder-input": "^1.0.1"
+    "@citizenfx/client": "^2.0.5012-1",
+    "@citizenfx/server": "^2.0.5012-1",
+    "@nativewrappers/client": "^1.7.25",
+    "@types/node": "^16.11.10",
+    "clean-webpack-plugin": "^4.0.0",
+    "javascript-obfuscator": "^4.0.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-obfuscator": "^3.5.1"
   }
 }
