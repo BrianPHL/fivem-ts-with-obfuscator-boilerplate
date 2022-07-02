@@ -22,7 +22,7 @@ const client = () => ({
     },
     plugins: [
         new CleanWebpackPlugin(),
-        // new WebpackObfuscator({ rotateStringArray: true })
+        new WebpackObfuscator({ rotateStringArray: true })
     ],
     optimization: {
         minimize: false
