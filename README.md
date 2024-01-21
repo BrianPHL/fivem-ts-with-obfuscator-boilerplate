@@ -1,3 +1,6 @@
+## ⚠️ DEPRECATED ⚠️
+### Use: https://github.com/BrianPHL/fivem-ts-rollup-bundler-with-obfuscator-boilerplate
+
 <br/>
 <h1 align="center">fivem-ts-with-obfuscator-boilerplate</h1>
 <br/>
